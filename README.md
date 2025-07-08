@@ -1,4 +1,4 @@
-# n8n sefl host with docker + Cloudflare Tunnel
+# n8n self host with docker + Cloudflare Tunnel
 
 This repository contains a Docker Compose setup for running n8n with Cloudflare as a tunneling service. n8n is a workflow automation tool that allows you to connect different services and APIs. Cloudflared exposes local servers behind NATs and firewalls to the public internet over secure tunnels.
 
