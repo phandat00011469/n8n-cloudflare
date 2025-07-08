@@ -1,4 +1,4 @@
-# n8n with Cloudflare Tunnel
+# n8n sefl host with docker + Cloudflare Tunnel
 
 This repository contains a Docker Compose setup for running n8n with Cloudflare as a tunneling service. n8n is a workflow automation tool that allows you to connect different services and APIs. Cloudflared exposes local servers behind NATs and firewalls to the public internet over secure tunnels.
 
@@ -20,7 +20,7 @@ Before you begin, ensure you have the following configured:
    git clone https://github.com/joffcom/n8n-cloudflare.git
    ```
 
-2. **Cấu hình Cloudflare Tunnel**
+2. **setting Cloudflare Tunnel**
 
    Để thiết lập Cloudflare Tunnel, bạn cần làm theo các bước sau trong trang tổng quan Cloudflare của mình:
 
@@ -55,7 +55,7 @@ Before you begin, ensure you have the following configured:
        - `N8N_EDITOR_BASE_URL`
        - `N8N_PUBLIC_API_BASE_URL`
 
-3. **Chạy ứng dụng**
+3. **Run app**
 
    Để chạy n8n với Cloudflare, hãy sử dụng lệnh sau:
 
