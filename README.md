@@ -46,7 +46,7 @@ Before you begin, ensure you have the following configured:
      - **Domain:** Chọn tên miền của bạn.
      - **Service:**
        - **Type:** Chọn `HTTP`.
-       - **URL:** Nhập `n8n:5678`. Điều này cho Cloudflare biết cách định tuyến lưu lượng truy cập đến dịch vụ n8n đang chạy trong Docker.
+       - **URL:** Nhập `ipv4:5678`. Điều này cho Cloudflare biết cách định tuyến lưu lượng truy cập đến dịch vụ n8n đang chạy trong Docker. ipv4 lấy từ `ipconfig` của cmd.
      - Lưu lại hostname.
    - **Cập nhật các biến môi trường n8n:**
      - Trong tệp `docker-compose.yml`, cập nhật các biến môi trường sau cho dịch vụ `n8n` để khớp với URL đầy đủ của bạn (ví dụ: `https://n8n.your-domain.com`):
